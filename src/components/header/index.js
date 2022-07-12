@@ -9,7 +9,7 @@ function Header() {
         <header className={styles.akNav}>
             <div className={styles.akHeader}>
                 <a href="./" className={styles.akHeaderImageLink}>
-                    <img src={Logo} className={styles.akHeaderImage}/>
+                    <img src={Logo} className={styles.akHeaderImage} alt="AK"/>
                 </a>
                 <ul className={styles.akNavLinks}>
                     {links.map((item) => (
