@@ -2,37 +2,74 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --spacer: 8;
+  --primary: #ff2a39;
+  --primaryTextColor: #040c2c;
+  --secondaryTextColor: #FFFFFF;
+  --primaryBackgroundColor: #FFFFFF;
+  --secondaryBackgroundColor: #FFFFFF;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  z-index: 1;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: inline-flex;
+  text-decoration: none;
+  color: var(--primary);
+  text-transform: uppercase;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  border: 1px solid var(--primary);
+  margin: 0px calc(var(--spacer) * 2px);
+  font: 600 14px/28px Montserrat,sans-serif;
+  border-radius: calc(var(--spacer) * 0.5px);
+  background-color: var(--primaryBackgroundColor);
+  padding: calc(var(--spacer) * 0.5px) calc(var(--spacer) * 4px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  outline: none;
+  background: var(--primary);
+  color: var(--secondaryTextColor);
+  box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.12);
 }
 
-.App-link {
-  color: #61dafb;
+button::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+  position: absolute;
+  border-radius: 0px;
+  transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  background: var(--primary);
+  transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  -webkit-transform-origin: 50%;
+  transition-property: transform;
+  -o-transition-property: transform;
+  transition-property: -webkit-transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover:before {
+  transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
 }

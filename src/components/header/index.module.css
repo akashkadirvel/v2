@@ -1,0 +1,52 @@
+.akNav {
+    top: 0px;
+    position: sticky;
+    box-shadow: 0 2px 35px 0 rgb(0 0 0 / 10%);
+    background-color: var(--primaryBackgroundColor);
+}
+
+.akHeader {
+    margin: auto;
+    display: flex;
+    max-width: 1140px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(var(--spacer) * 11px);
+}
+
+.akHeaderImageLink {
+    width: calc(var(--spacer) * 8px);
+    height: calc(var(--spacer) * 8px);
+}
+
+.akHeaderImage{
+    width: calc(var(--spacer) * 8px);
+    height: calc(var(--spacer) * 8px);
+}
+
+.akNavLinks {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 0px !important;
+}
+
+.akNavItem {
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s linear;
+    color: var(--primaryTextColor);
+    margin: 0px calc(var(--spacer) * 2px);
+    font: 600 14px/30px Montserrat,sans-serif;
+}
+
+.akNavItem a {
+    text-decoration: none;
+    color: var(--primaryTextColor);
+}
+
+.akNavItem a:hover, 
+.akNavItem:hover {
+    color: var(--primary);
+}
