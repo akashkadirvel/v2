@@ -1,8 +1,15 @@
 .akNav {
     top: 0px;
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
     box-shadow: 0 2px 35px 0 rgb(0 0 0 / 10%);
     background-color: var(--primaryBackgroundColor);
+}
+
+.akNav[data-scroll="0"] {
+    box-shadow: none;
+    background-color: transparent;
 }
 
 .akHeader {

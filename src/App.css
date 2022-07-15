@@ -22,12 +22,12 @@ button {
   color: var(--primary);
   text-transform: uppercase;
   transition: all .3s linear;
+  background-color: transparent;
   -webkit-transition: all .3s linear;
   border: 1px solid var(--primary);
   margin: 0px calc(var(--spacer) * 2px);
   font: 600 14px/28px Montserrat,sans-serif;
   border-radius: calc(var(--spacer) * 0.5px);
-  background-color: var(--primaryBackgroundColor);
   padding: calc(var(--spacer) * 0.5px) calc(var(--spacer) * 4px);
 }
 

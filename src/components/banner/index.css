@@ -1,0 +1,158 @@
+section {
+  width: 100%;
+  height: 100%;
+}
+
+/*========== banner_area css =========*/
+.banner_area, .banner_area_two {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-size: cover;
+}
+.banner_area > canvas {
+  width: 100%;
+}
+
+.react-parallax-bgimage {
+  height: 100vh;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+}
+.react-parallax-content {
+  width: 100%;
+}
+.banner_area:before {
+  left: 0;
+  z-index: 0;
+  content: "";
+  width: 100%;
+  bottom: -1px;
+  height: 246px;
+  position: absolute;
+  background: url("../../assets/curve.png") no-repeat scroll center 0 / cover;
+}
+.particle {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.banner_content {
+  color: #fff;
+  position: relative;
+}
+
+.banner_content h5 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 400;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.banner_content h2 {
+  margin: 10px 0px;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.banner_content h4 {
+  font-size: 22px;
+  letter-spacing: 0px;
+  padding: 10px 0px 30px;
+}
+.banner_content h4 span {
+  font-weight: 700;
+}
+
+.banner_content .social_icon li {
+  display: inline-block;
+  margin: 0px 3px;
+}
+
+.banner_content .social_icon li a {
+  font-size: 14px;
+  width: 42px;
+  height: 42px;
+  line-height: 43px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  color: #fff;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-align: center;
+}
+
+.banner_content .social_icon li a:hover {
+  background: #fff;
+  color: #040c2c;
+}
+
+.banner_area_two .banner_content {
+  color: #040c2c;
+  position: relative;
+  z-index: 3;
+}
+.banner_area_two .banner_content h2 {
+  font-size: 75px;
+}
+.banner_area_two .banner_content h3 {
+  font-size: 24px;
+  padding-top: 20px;
+  margin-bottom: 2px;
+}
+.banner_area_two .banner_content .social_icon li a {
+  background: #040c2c;
+}
+.banner_area_two .banner_content .social_icon li a:hover {
+  box-shadow: 0px 2px 35px 0px rgba(4, 12, 44, 0.5);
+  color: #fff;
+  transform: translateY(-4px);
+}
+.banner_area_two .one_img {
+  position: absolute;
+  top: -15px;
+  left: -150px;
+  opacity: 0.6;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/*========== banner_area css =========*/
+/*---------------------------------------------------- */

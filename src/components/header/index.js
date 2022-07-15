@@ -1,22 +1,55 @@
-import styles from "./index.module.css";
-import Logo from "../../assets/logo.png";
+import { useEffect, useState } from "react";
+import Logo from "../../assets/akLogo.png";
+import s from "./index.module.css";
 
 function Header() {
+    const [scrollY, setScrollY] = useState(0);
 
-    let links = ["home", "about", "service", "portfolio", "testimonial", "blog", "contact"];
+    const handleScroll = () => {
+        if( 
+            (window.scrollY && !scrollY) ||
+            (!window.scrollY && scrollY)
+        ){
+            setScrollY(window.scrollY);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return (() => {
+            window.removeEventListener("scroll", handleScroll);
+        })
+    });
+
+    let links = [
+        "home", "about", "service", "portfolio", 
+        "testimonial", "blog", "contact"
+    ];
 
     return (
-        <header className={styles.akNav}>
-            <div className={styles.akHeader}>
-                <a href="./" className={styles.akHeaderImageLink}>
-                    <img src={Logo} className={styles.akHeaderImage} alt="AK"/>
+        <header 
+            data-scroll={scrollY}
+            className={s.akNav} 
+        >
+            <div className={s.akHeader}>
+                <a 
+                    href="./" 
+                    className={s.akHeaderImageLink}
+                >
+                    <img 
+                        alt={"AK"}
+                        src={Logo} 
+                        className={s.akHeaderImage} 
+                    />
                 </a>
-                <ul className={styles.akNavLinks}>
-                    {links.map((item) => (
-                        <li className={styles.akNavItem}>
-                            <a href={`#${item}`}>{item}</a>
-                        </li> 
-                    ))}
+                <ul className={s.akNavLinks}>
+                    {
+                        links.map((item) => (
+                            <li className={s.akNavItem}>
+                                <a href={`#${item}`}>{item}</a>
+                            </li> 
+                        ))
+                    }
                 </ul>
                 <button>
                     LOGIN
