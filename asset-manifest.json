@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c219f7e.css",
-    "main.js": "/static/js/main.0d191a7e.js",
-    "static/js/787.f8a285c4.chunk.js": "/static/js/787.f8a285c4.chunk.js",
-    "static/media/akBanner.jpg": "/static/media/akBanner.95462c9ca16dc7702c2d.jpg",
-    "static/media/akLogo.png": "/static/media/akLogo.b1329ec087790f06f97a.png",
-    "static/media/curve.png": "/static/media/curve.a5640aec89cd1cb0ead2.png",
-    "index.html": "/index.html",
-    "main.5c219f7e.css.map": "/static/css/main.5c219f7e.css.map",
-    "main.0d191a7e.js.map": "/static/js/main.0d191a7e.js.map",
-    "787.f8a285c4.chunk.js.map": "/static/js/787.f8a285c4.chunk.js.map"
+    "main.css": "/v2/static/css/main.d58fc1c7.css",
+    "main.js": "/v2/static/js/main.454a52f3.js",
+    "static/js/787.f8a285c4.chunk.js": "/v2/static/js/787.f8a285c4.chunk.js",
+    "static/media/akBanner.jpg": "/v2/static/media/akBanner.95462c9ca16dc7702c2d.jpg",
+    "static/media/akLogo.png": "/v2/static/media/akLogo.b1329ec087790f06f97a.png",
+    "static/media/curve.png": "/v2/static/media/curve.a5640aec89cd1cb0ead2.png",
+    "index.html": "/v2/index.html",
+    "main.d58fc1c7.css.map": "/v2/static/css/main.d58fc1c7.css.map",
+    "main.454a52f3.js.map": "/v2/static/js/main.454a52f3.js.map",
+    "787.f8a285c4.chunk.js.map": "/v2/static/js/787.f8a285c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c219f7e.css",
-    "static/js/main.0d191a7e.js"
+    "static/css/main.d58fc1c7.css",
+    "static/js/main.454a52f3.js"
   ]
 }
