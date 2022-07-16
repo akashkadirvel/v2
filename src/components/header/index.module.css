@@ -57,3 +57,12 @@
 .akNavItem:hover {
     color: var(--primary);
 }
+
+@media only screen and (max-width: 600px){
+    .akHeader {
+        margin: 0px calc(var(--spacer) * 2px);
+    }
+    .akNavLinks {
+        display: none;
+    }
+}

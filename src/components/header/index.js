@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Logo from "../../assets/akLogo.png";
+import data from "../../data.json";
 import s from "./index.module.css";
 
 function Header() {
@@ -21,10 +22,9 @@ function Header() {
         })
     });
 
-    let links = [
-        "home", "about", "service", "portfolio", 
-        "testimonial", "blog", "contact"
-    ];
+    const onConnect = () => {
+        window.open(data.socialLinks[data.onConnect]);
+    }
 
     return (
         <header 
@@ -44,15 +44,18 @@ function Header() {
                 </a>
                 <ul className={s.akNavLinks}>
                     {
-                        links.map((item) => (
-                            <li className={s.akNavItem}>
+                        data.navLinks.map((item) => (
+                            <li 
+                                key={"navLinks_"+item}
+                                className={s.akNavItem}
+                            >
                                 <a href={`#${item}`}>{item}</a>
                             </li> 
                         ))
                     }
                 </ul>
-                <button>
-                    LOGIN
+                <button onClick={onConnect}>
+                    CONNECT
                 </button>
             </div>
         </header>

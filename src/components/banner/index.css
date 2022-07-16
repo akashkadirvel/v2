@@ -3,156 +3,105 @@ section {
   height: 100%;
 }
 
-/*========== banner_area css =========*/
-.banner_area, .banner_area_two {
+.banner_area { 
+  z-index: 1;
+  display: flex;
+  overflow: hidden;
   min-height: 100vh;
   position: relative;
-  z-index: 1;
   text-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  overflow: hidden;
   background-size: cover;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  background-position: right;
 }
+
 .banner_area > canvas {
   width: 100%;
 }
 
-.react-parallax-bgimage {
-  height: 100vh;
-  top: 0;
-  z-index: -1;
-  width: 100%;
-  left: 0;
-}
-.react-parallax-content {
-  width: 100%;
-}
 .banner_area:before {
   left: 0;
   z-index: 0;
   content: "";
   width: 100%;
   bottom: -1px;
-  height: 246px;
   position: absolute;
+  height: calc(var(--spacer) * 30.75px);
   background: url("../../assets/curve.png") no-repeat scroll center 0 / cover;
-}
-.particle {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
 }
 
 .banner_content {
-  color: #fff;
+  width: 100%;
   position: relative;
+  text-align: initial;
+  color: var(--secondaryTextColor);
+  margin-left: calc(var(--spacer) * 4%);
 }
 
 .banner_content h5 {
-  font-size: 20px;
   margin: 0;
   font-weight: 400;
-  margin-bottom: 32px;
   letter-spacing: 1px;
+  font-size: calc(var(--spacer) * 2.5px);
+  margin-bottom: calc(var(--spacer) * 4px);
 }
 
 .banner_content h2 {
-  margin: 10px 0px;
   font-size: 55px;
-  font-weight: 700;
+  font-weight: 500;
+  color: var(--primaryTextColor);
+  margin: calc(var(--spacer) * 1px) 0px;
 }
 
 .banner_content h4 {
   font-size: 22px;
+  margin-block: 0px;
+  font-weight: normal;
   letter-spacing: 0px;
-  padding: 10px 0px 30px;
+  color: var(--primaryTextColor);
+  padding: calc(var(--spacer) * 1px) 0px;
 }
-.banner_content h4 span {
-  font-weight: 700;
+
+.banner_content .social_icon {
+  padding-inline-start: 0px;
 }
 
 .banner_content .social_icon li {
   display: inline-block;
-  margin: 0px 3px;
+  margin: 0px 6px;
 }
 
 .banner_content .social_icon li a {
-  font-size: 14px;
-  width: 42px;
-  height: 42px;
-  line-height: 43px;
+  display: flex;
   border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondaryTextColor);
   background: rgba(0, 0, 0, 0.3);
-  display: inline-block;
-  color: #fff;
+  width: calc(var(--spacer) * 5px);
+  height: calc(var(--spacer) * 5px);
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  text-align: center;
 }
 
 .banner_content .social_icon li a:hover {
-  background: #fff;
-  color: #040c2c;
+  background: var(--primary);
+  color: var(--secondaryTextColor);
 }
 
-.banner_area_two .banner_content {
-  color: #040c2c;
-  position: relative;
-  z-index: 3;
-}
-.banner_area_two .banner_content h2 {
-  font-size: 75px;
-}
-.banner_area_two .banner_content h3 {
-  font-size: 24px;
-  padding-top: 20px;
-  margin-bottom: 2px;
-}
-.banner_area_two .banner_content .social_icon li a {
-  background: #040c2c;
-}
-.banner_area_two .banner_content .social_icon li a:hover {
-  box-shadow: 0px 2px 35px 0px rgba(4, 12, 44, 0.5);
-  color: #fff;
-  transform: translateY(-4px);
-}
-.banner_area_two .one_img {
-  position: absolute;
-  top: -15px;
-  left: -150px;
-  opacity: 0.6;
-  -webkit-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
-}
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+@media only screen and (max-width: 600px) {
+  .banner_content {
+    width: 80%;
+    margin-top: calc(var(--spacer) * 7%);
+    margin-left: calc(var(--spacer) * 1%);
   }
-
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
+  .banner_area {
+    background-position: 70%;
   }
 }
-
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-/*========== banner_area css =========*/
-/*---------------------------------------------------- */

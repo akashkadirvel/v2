@@ -1,0 +1,26 @@
+{
+    "navLinks" : [
+        "home", 
+        "about", 
+        "service", 
+        "portfolio", 
+        "testimonial", 
+        "blog", 
+        "contact"
+    ],
+    "onConnect": "calendly",
+    "positions": [
+        "Electrical & Electronics Engineer",
+        "Front End Developer",
+        "React Developer",
+        "React Native Developer",
+        "Freelancer"
+    ],
+    "socialLinks" : {
+        "skype" : "skype:akash_kadirvel?chat",
+        "github" : "https://github.com/akashkadirvel",
+        "calendly": "https://calendly.com/akashkadirvel/lets-talk",
+        "whatsapp": "https://api.whatsapp.com/send?phone=919597324720",
+        "linkedin": "https://www.linkedin.com/in/akash-kadirvel-5425a3116/"
+    }
+}

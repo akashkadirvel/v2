@@ -1,9 +1,27 @@
 import image from '../../assets/akBanner.jpg';
 import WaterWave from 'react-water-wave';
+import Typer from "../typing-effect";
+import data from "../../data.json";
 import React from "react";
 import "./index.css";
+import { 
+    FaSkype,
+    FaGithub,
+    FaWhatsapp,
+    FaLinkedinIn,
+    FaCalendarCheck
+} from "react-icons/fa";
 
 function Banner (props) {
+
+    let socialIcons = [
+        {Component: FaSkype, link : data.socialLinks.skype},
+        {Component: FaGithub, link : data.socialLinks.github},
+        {Component: FaWhatsapp, link : data.socialLinks.whatsapp},
+        {Component: FaLinkedinIn, link : data.socialLinks.linkedin},
+        {Component: FaCalendarCheck, link : data.socialLinks.calendly},
+    ];
+
     return (
         <section id="home">
             <WaterWave 
@@ -14,7 +32,26 @@ function Banner (props) {
                 {({ getRootProps}) => (
                     <div className="container">
                         <div className={`banner_content`}>
-                            
+                            <h2> Akash Kathirvel </h2>
+                            <Typer dataText={data.positions} />
+                            <ul className='social_icon'>
+                                {
+                                    socialIcons.map((item, index) => {
+                                        const { link, Component } = item;
+                                        return (
+                                            <li key={"links_"+index}>
+                                                <a 
+                                                    href={link} 
+                                                    target="_blank" 
+                                                    rel='noreferrer noopener'
+                                                >
+                                                    <Component />
+                                                </a>
+                                            </li>
+                                        )
+                                    })
+                                }
+                            </ul>
                         </div>
                     </div>
                 )}
