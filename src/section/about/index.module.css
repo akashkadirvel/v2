@@ -1,0 +1,49 @@
+section[id="about"] {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - (var(--spacer) * 11px));
+}
+
+.leftContainer {
+    width: 50%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none !important;
+    height: calc(100vh - (var(--spacer) * 11px));
+}
+
+.aboutMeContent {
+    margin: calc(var(--spacer) * 5px) 0px;
+}
+
+.rightContainer {
+    width: 50%;
+    height: calc(100vh - (var(--spacer) * 11px));
+}
+
+.rightImage {
+    width: 80%;
+    height: 100%;
+}
+
+@media  only screen and (max-width: 768px){
+    section[id="about"] {
+        height: 100%;
+    }
+    .leftContainer {
+        width: 100%;
+        flex-direction: column;
+        margin-top: calc(var(--spacer) * 10px);
+        margin-bottom: calc(var(--spacer) * 5px);
+    }
+    .rightContainer {
+        width: 100%;
+        height: auto;
+    }
+    .cta {
+        margin: calc(var(--spacer) * 1px) 0px;
+    }
+}
