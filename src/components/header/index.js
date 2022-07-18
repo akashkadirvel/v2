@@ -6,13 +6,18 @@ import s from "./index.module.css";
 function Header() {
     const [scrollY, setScrollY] = useState(0);
 
-    const handleScroll = () => {
-        if( 
-            (window.scrollY && !scrollY) ||
-            (!window.scrollY && scrollY)
-        ){
-            setScrollY(window.scrollY);
+    const handleScroll = (e) => {
+        setScrollY(window.scrollY);
+    }
+
+    const isActive = (item) => {
+        let el = document.getElementById(item);
+        if(el){
+            let top = el.offsetTop - 160;
+            let bottom = top + el.offsetHeight;
+            return (bottom > scrollY) && (scrollY > top);
         }
+        return false;
     }
 
     useEffect(() => {
@@ -47,7 +52,9 @@ function Header() {
                         data.navLinks.map((item) => (
                             <li 
                                 key={"navLinks_"+item}
-                                className={s.akNavItem}
+                                className={`${s.akNavItem} ${
+                                    isActive(item) ? s.active : ""
+                                }`}
                             >
                                 <a href={`#${item}`}>{item}</a>
                             </li> 

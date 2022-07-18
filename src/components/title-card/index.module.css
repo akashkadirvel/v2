@@ -1,7 +1,7 @@
 .border {
-    width: 20%;
+    width: 10%;
     background-color: var(--primary);
-    height: calc(var(--spacer) * 0.5px);
-    margin: calc(var(--spacer) * 2px) auto;
+    height: calc(var(--spacer) * 0.25px);
+    margin: calc(var(--spacer) * 3px) auto;
     border-radius: calc(var(--spacer) * 1px);
 }
