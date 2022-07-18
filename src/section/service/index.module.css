@@ -1,0 +1,75 @@
+section[id="service"] {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: calc(var(--spacer) * 4px) 0px;
+    height: calc(100vh - (var(--spacer) * 15px));
+    background-color: var(--secondaryBackgroundColor);
+}
+
+.cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titleCard {
+    max-height: calc(var(--spacer) * 15px);
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #F3F1F1;
+    margin: calc(var(--spacer) * 2px);
+    background-color: var(--primaryBackgroundColor);
+    padding: calc(var(--spacer) * 5px) calc(var(--spacer) * 3px);
+}
+
+.iconArea {
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8A8A8A;
+    width: calc(var(--spacer) * 8px);
+    height: calc(var(--spacer) * 8px);
+}
+
+.icon {
+    color: #8A8A8A;
+    width: calc(var(--spacer) * 5px);
+    height: calc(var(--spacer) * 5px);
+}
+
+.card:hover {
+    box-shadow: 0 5px 35px 0 rgb(148 146 245 / 15%);
+}
+
+.card:hover .iconArea {
+    border-color: var(--primary);
+    background-color: var(--primary);
+}
+
+.card:hover .icon {
+    color: var(--secondaryTextColor);
+}
+
+.card h2 {
+    margin: 0px;
+    font-weight: 600;
+    color: var(--primaryTextColor);
+    transition: color .3s linear;
+    -webkit-transition: color .3s linear;
+    font-size: calc(var(--spacer) * 2.5px);
+    line-height: calc(var(--spacer) * 4px);
+    padding: calc(var(--spacer) * 2px) 0px;
+}
+
+.card p {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}

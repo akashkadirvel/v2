@@ -11,8 +11,8 @@ function About() {
                     <div className={s.leftContainer}>
                         <TitleCard 
                             title = "About Me"
+                            border = { false }
                             subTitle = "Front End Developer"
-                            className = {s.titleCard}
                         />
                         <p className={s.aboutMeContent}>
                             {data.about}

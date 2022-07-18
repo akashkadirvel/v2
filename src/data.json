@@ -24,5 +24,10 @@
         "whatsapp": "https://api.whatsapp.com/send?phone=919597324720",
         "linkedin": "https://www.linkedin.com/in/akash-kadirvel-5425a3116/"
     },
-    "about": "An astute learner and best performer in challenging and healthy environment, where I can utilize my skills and knowledge efficiently towards growth. Born and grown up with native of Tamil Nadu, India. Had my studies in the English Medium Instructions. Hence I may manage to speak , write and read in English &amp; Tamil languages. Loves cycling in the sirimiri with listening to music."
+    "about": "An astute learner and best performer in challenging and healthy environment, where I can utilize my skills and knowledge efficiently towards growth. Born and grown up with native of Tamil Nadu, India. Had my studies in the English Medium Instructions. Hence I may manage to speak , write and read in English &amp; Tamil languages. Loves cycling in the sirimiri with listening to music.",
+    "service" : [
+        { "title": "Development", "icon": "MdLaptopMac" , "description": "We use React / React Native to develop cross-platform web and mobile applications for Android and iOS."},
+        { "title": "Marketing", "icon": "MdOutlineAddchart" , "description": "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."},
+        { "title": "Support", "icon": "MdMiscellaneousServices" , "description": "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."}
+    ]
 }
