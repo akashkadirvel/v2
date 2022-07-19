@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/v2/static/css/main.19557a16.css",
-    "main.js": "/v2/static/js/main.8e49afc0.js",
+    "main.css": "/v2/static/css/main.478a3bec.css",
+    "main.js": "/v2/static/js/main.696563db.js",
     "static/js/787.f8a285c4.chunk.js": "/v2/static/js/787.f8a285c4.chunk.js",
     "static/media/me.png": "/v2/static/media/me.db206cbb1684ef6456c5.png",
     "static/media/akBanner.jpg": "/v2/static/media/akBanner.95462c9ca16dc7702c2d.jpg",
@@ -9,12 +9,12 @@
     "static/media/Akash_Kadirvel_Resume.pdf": "/v2/static/media/Akash_Kadirvel_Resume.9410a5a38529df0f785b.pdf",
     "static/media/curve.png": "/v2/static/media/curve.a5640aec89cd1cb0ead2.png",
     "index.html": "/v2/index.html",
-    "main.19557a16.css.map": "/v2/static/css/main.19557a16.css.map",
-    "main.8e49afc0.js.map": "/v2/static/js/main.8e49afc0.js.map",
+    "main.478a3bec.css.map": "/v2/static/css/main.478a3bec.css.map",
+    "main.696563db.js.map": "/v2/static/js/main.696563db.js.map",
     "787.f8a285c4.chunk.js.map": "/v2/static/js/787.f8a285c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19557a16.css",
-    "static/js/main.8e49afc0.js"
+    "static/css/main.478a3bec.css",
+    "static/js/main.696563db.js"
   ]
 }
