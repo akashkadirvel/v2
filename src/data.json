@@ -29,5 +29,6 @@
         { "title": "Development", "icon": "MdLaptopMac" , "description": "We use React / React Native to develop cross-platform web and mobile applications for Android and iOS."},
         { "title": "Marketing", "icon": "MdOutlineAddchart" , "description": "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."},
         { "title": "Support", "icon": "MdMiscellaneousServices" , "description": "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."}
-    ]
+    ],
+    "copyright": "© 2022 Akash Kathirvel | Hosted With "
 }

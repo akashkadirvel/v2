@@ -1,0 +1,49 @@
+footer {
+    padding: calc(var(--spacer) * 3px) 0px;
+    min-height: calc(var(--spacer) * 20px);
+    background-color: var(--teritiaryBackgroundColor);
+}
+
+.akHeaderImage{
+    width: calc(var(--spacer) * 8px);
+    height: calc(var(--spacer) * 8px);
+}
+
+.social_icon {
+    padding-inline-start: 0px;
+}
+  
+.social_icon li {
+    display: inline-block;
+    margin: 0px 6px;
+}
+  
+.social_icon li a {
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondaryTextColor);
+    background-color: var(--primary);
+    width: calc(var(--spacer) * 5px);
+    height: calc(var(--spacer) * 5px);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+  
+.social_icon li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: var(--secondaryTextColor);
+}
+
+footer p a {
+    cursor: pointer;
+    color: var(--primary);
+}
+
+footer p a:hover {
+    cursor: pointer;
+    color: var(--secondaryTextColor);
+}
