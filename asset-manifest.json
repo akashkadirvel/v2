@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/v2/static/css/main.478a3bec.css",
-    "main.js": "/v2/static/js/main.696563db.js",
+    "main.css": "/v2/static/css/main.358b5beb.css",
+    "main.js": "/v2/static/js/main.c7ebcc26.js",
     "static/js/787.f8a285c4.chunk.js": "/v2/static/js/787.f8a285c4.chunk.js",
     "static/media/me.png": "/v2/static/media/me.db206cbb1684ef6456c5.png",
+    "static/media/cocosutra-client-akashkadirvel.png": "/v2/static/media/cocosutra-client-akashkadirvel.ae4791d39431af1dd2b2.png",
+    "static/media/br-silks-client-akash.png": "/v2/static/media/br-silks-client-akash.81a0e27dd9371bcf2b2d.png",
+    "static/media/agni-siragual-client-akashkadirvel.png": "/v2/static/media/agni-siragual-client-akashkadirvel.2b2a168568238545333a.png",
+    "static/media/cocosutra-pancake-client-akashkadirvel.png": "/v2/static/media/cocosutra-pancake-client-akashkadirvel.56d864f6ab0ec04fd243.png",
+    "static/media/teve-product-exp-akashkadirvel.png": "/v2/static/media/teve-product-exp-akashkadirvel.455fc5c21f8c511fd812.png",
+    "static/media/cocosutra-cookie-client-akashkadirvel.png": "/v2/static/media/cocosutra-cookie-client-akashkadirvel.a5a503c3f867dcbbe4b2.png",
     "static/media/akBanner.jpg": "/v2/static/media/akBanner.95462c9ca16dc7702c2d.jpg",
+    "static/media/blood-donor-locator-project-akashkadirvel.png": "/v2/static/media/blood-donor-locator-project-akashkadirvel.947e3e7866ea2e768864.png",
+    "static/media/byzo-client-akashkadirvel.png": "/v2/static/media/byzo-client-akashkadirvel.f1840ec15b9d30d6b689.png",
     "static/media/akLogo.png": "/v2/static/media/akLogo.b1329ec087790f06f97a.png",
+    "static/media/dimple-client-akashkadirvel.png": "/v2/static/media/dimple-client-akashkadirvel.9071df120fc5a8dfb37b.png",
+    "static/media/leads-client-akashkadirvel.png": "/v2/static/media/leads-client-akashkadirvel.c9e2a919d592cd83a472.png",
     "static/media/Akash_Kadirvel_Resume.pdf": "/v2/static/media/Akash_Kadirvel_Resume.9410a5a38529df0f785b.pdf",
+    "static/media/abaya-gold-buyers-client-akash.png": "/v2/static/media/abaya-gold-buyers-client-akash.f08d05f1e140621a5fc1.png",
     "static/media/curve.png": "/v2/static/media/curve.a5640aec89cd1cb0ead2.png",
     "index.html": "/v2/index.html",
-    "main.478a3bec.css.map": "/v2/static/css/main.478a3bec.css.map",
-    "main.696563db.js.map": "/v2/static/js/main.696563db.js.map",
+    "main.358b5beb.css.map": "/v2/static/css/main.358b5beb.css.map",
+    "main.c7ebcc26.js.map": "/v2/static/js/main.c7ebcc26.js.map",
     "787.f8a285c4.chunk.js.map": "/v2/static/js/787.f8a285c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.478a3bec.css",
-    "static/js/main.696563db.js"
+    "static/css/main.358b5beb.css",
+    "static/js/main.c7ebcc26.js"
   ]
 }
