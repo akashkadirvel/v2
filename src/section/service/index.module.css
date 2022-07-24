@@ -2,7 +2,7 @@ section[id="service"] {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: calc(var(--spacer) * 4px) 0px;
+    padding: calc(var(--spacer) * 11px) 0px;
     min-height: calc(100vh - (var(--spacer) * 15px));
     background-color: var(--secondaryBackgroundColor);
 }
@@ -76,6 +76,10 @@ section[id="service"] {
 }
 
 @media only screen and (max-width: 768px) {
+    section[id="service"]{
+        padding: calc(var(--spacer) * 4px) 0px;
+    }
+
     .card {
         width: 90%;
     }

@@ -3,7 +3,7 @@ section[id="portfolio"] {
     height: 100%;
     display: flex;
     justify-content: center;
-    padding: calc(var(--spacer) * 8px) 0px;
+    padding: calc(var(--spacer) * 11px) 0px;
 }
 
 .titleCard {
@@ -42,8 +42,17 @@ section[id="portfolio"] {
 }
 
 @media only screen and (max-width: 768px) {
+
+  section[id="portfolio"] {
+    padding: calc(var(--spacer) * 4px) 0px;
+  }
+
   .portfolios {
     margin: calc(var(--spacer) * 1px);
+  }
+
+  .catButtons {
+    margin: calc(var(--spacer) * 1px) calc(var(--spacer) * .5px);
   }
 }
 
