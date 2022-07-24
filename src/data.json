@@ -30,5 +30,81 @@
         { "title": "Marketing", "icon": "MdOutlineAddchart" , "description": "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."},
         { "title": "Support", "icon": "MdMiscellaneousServices" , "description": "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."}
     ],
-    "copyright": "© 2022 Akash Kathirvel | Hosted With "
+    "copyright": "© 2022 Akash Kathirvel | Hosted With ",
+    "portfolio": {
+        "categories" : [
+            { "label": "All", "value": "" },
+            { "label": "Personal", "value": "personal" },
+            { "label": "Freelance", "value": "freelance" },
+            { "label": "Contracted", "value": "contracted" }
+        ],
+        "content": [
+            { 
+                "value": "personal", 
+                "src" : "agniSiragugal", 
+                "link": "#portfolio", 
+                "title": "Agni siragugal - Web application for Books B2C Ecommerce"
+            },
+            {   
+                "value": "freelance", 
+                "src" : "abayaGold", 
+                "link": "https://abayagold.in/", 
+                "title": "Abaya Gold Buyers - Admin portal for accounts and bills"
+            },            
+            { 
+                "value": "personal", 
+                "src" : "bloodLocator", 
+                "link": "#portfolio", 
+                "title": "Blood Donor Locator - Web application for track blood availablity in locations"
+            },
+            {   
+                "value": "freelance", 
+                "src" : "cocosutraPancake", 
+                "link": "https://cocosutra.com/product-category/pancake-waffle-mix/", 
+                "title": "Cocosutra - B2B Ecommerce web application for Chocolate giant"
+            },
+            {   
+                "value": "freelance", 
+                "src" : "cocosutraCookie", 
+                "link": "https://cocosutra.com/product-category/cookie-dough/", 
+                "title": "Cocosutra - B2B Ecommerce web application for Chocolate giant"
+            },
+            {   
+                "value": "freelance",
+                "src" : "cocosutraMain",
+                "link": "https://cocosutra.com",
+                "title": "Cocosutra - B2B Ecommerce web application for Chocolate giant"
+            },
+            {   
+                "value": "freelance", 
+                "src" : "brSilks", 
+                "link": "https://brsilks.com", 
+                "title": "Br Silks - Web Application for B2C Ecommerce"
+            },
+            {   
+                "value": "freelance", 
+                "src" : "dimple", 
+                "link": "https://dimplemj.com", 
+                "title": "Dimple - Web Application for Consultant portfolio"
+            },
+            {   
+                "value": "contracted", 
+                "src" : "leads", 
+                "link": "https://leads.moonproduct.in", 
+                "title": "Leads - Web / Mobile application for capturing/acquiring service leads"
+            },
+            {   
+                "value": "contracted", 
+                "src" : "teve", 
+                "link": "https://teve.moonproduct.in", 
+                "title": "Teve - Seller Mobile application for B2B ecommerce"
+            },
+            {   
+                "value": "contracted", 
+                "src" : "byzo", 
+                "link": "https://play.google.com/store/apps/details?id=com.moonproduct.teve", 
+                "title": "Byzo - Mobile application for B2B ecommerce"
+            }
+        ]
+    }
 }

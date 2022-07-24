@@ -1,3 +1,4 @@
+import Portfolio from './section/portfolio';
 import Header from './components/header';
 import Footer from './components/footer';
 import Service from './section/service';
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <About />
       <Service />
+      <Portfolio />
       <Footer />
     </div>
   );

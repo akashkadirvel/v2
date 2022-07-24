@@ -25,6 +25,7 @@ section[id="service"] {
     justify-content: center;
     border: 1px solid #F3F1F1;
     margin: calc(var(--spacer) * 2px);
+    border-radius: calc(var(--spacer) * 1px);
     background-color: var(--primaryBackgroundColor);
     padding: calc(var(--spacer) * 5px) calc(var(--spacer) * 3px);
 }

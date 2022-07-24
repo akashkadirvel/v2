@@ -79,6 +79,15 @@ button:hover:before {
   -webkit-transform: scaleX(1);
 }
 
+button.active {
+  color: var(--secondaryTextColor);
+  background-color: var(--primary);
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
 .container {
   width: 1140px;
   max-width: 1140px;
