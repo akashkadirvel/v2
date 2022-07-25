@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/v2/static/css/main.358b5beb.css",
+    "main.css": "/v2/static/css/main.b6e6cbfb.css",
     "main.js": "/v2/static/js/main.c7ebcc26.js",
     "static/js/787.f8a285c4.chunk.js": "/v2/static/js/787.f8a285c4.chunk.js",
     "static/media/me.png": "/v2/static/media/me.db206cbb1684ef6456c5.png",
@@ -20,12 +20,12 @@
     "static/media/abaya-gold-buyers-client-akash.png": "/v2/static/media/abaya-gold-buyers-client-akash.f08d05f1e140621a5fc1.png",
     "static/media/curve.png": "/v2/static/media/curve.a5640aec89cd1cb0ead2.png",
     "index.html": "/v2/index.html",
-    "main.358b5beb.css.map": "/v2/static/css/main.358b5beb.css.map",
+    "main.b6e6cbfb.css.map": "/v2/static/css/main.b6e6cbfb.css.map",
     "main.c7ebcc26.js.map": "/v2/static/js/main.c7ebcc26.js.map",
     "787.f8a285c4.chunk.js.map": "/v2/static/js/787.f8a285c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.358b5beb.css",
+    "static/css/main.b6e6cbfb.css",
     "static/js/main.c7ebcc26.js"
   ]
 }
